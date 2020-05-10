@@ -10,16 +10,17 @@ In each turn the codemaker answers by stating how many pegs in the guess sequenc
 if a fixed number of turns has been played.
 
 Below is a sample sequence of moves (R red, G green, B blue) for the board-game:
+```
 Secret: R G G
-================
+=============
 Guess1: B R G
-Answ1: 1 1
+Answ1:  1 1
 Guess2: R B G
-Answ2: 2 0
+Answ2:  2 0
 Guess3: R G G
-Answ3: 3 0
+Answ3:  3 0
 Game finished in 3 moves.
-
+```
 For details see the MasterMind Wikipedia page:
 https://en.wikipedia.org/wiki/Mastermind_%28board_game%29
 
