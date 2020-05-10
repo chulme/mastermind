@@ -24,7 +24,7 @@ OBJECTS = $(addprefix $(OBJ)/, $(addsuffix .o, $(FILENAMES)))
 
 .PHONY: all
 all: $(OBJECTS)
-	$(CC) -o $(OBJ)/cw2 $(OBJECTS)
+	$(CC) -o $(OBJ)/mastermind $(OBJECTS)
 
 $(OBJECTS): | $(OBJ)/  # "Check" if the build directory exists
 
