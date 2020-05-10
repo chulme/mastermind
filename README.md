@@ -1,7 +1,7 @@
 # Mastermind
 To purpose of this project is to create the game Mastermind, using the C programming language and inline ARM assembly, executing on the Raspberry Pi with external input/output devices.
 
-This project has been completed by Adam Malek and Christopher Hulme.
+This project has been completed by Adam Malek and Christopher Hulme as a university project.
 
 ## Game Rules
 MasterMind is a two player game between a codemaker and a codebreaker. Before the game, a sequence length of N and a number of C colours for an arbitrary number of pegs are fixed. Then the codemaker selects N pegs and places them into a sequence of N slots. This (hidden) sequence comprises the code that should be broken. In turns, the codebreaker tries to guess the hidden sequence, by composing a sequence of N coloured pegs, choosing from the C colours.
