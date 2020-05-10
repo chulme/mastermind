@@ -9,6 +9,17 @@ MasterMind is a two player game between a codemaker and a codebreaker. Before th
 In each turn the codemaker answers by stating how many pegs in the guess sequence are both of the right colour and at the right position, and how many pegs are of the right colour but not in the right position. The codebreaker uses this information in order to refine his guess in the next round. The game is over when the codebreaker successfully guesses the code, or
 if a fixed number of turns has been played.
 
+Below is a sample sequence of moves (R red, G green, B blue) for the board-game:
+Secret: R G G
+================
+Guess1: B R G
+Answ1: 1 1
+Guess2: R B G
+Answ2: 2 0
+Guess3: R G G
+Answ3: 3 0
+Game finished in 3 moves.
+
 For details see the MasterMind Wikipedia page:
 https://en.wikipedia.org/wiki/Mastermind_%28board_game%29
 
